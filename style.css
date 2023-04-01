@@ -27,6 +27,7 @@ a {
     padding-bottom: 30px;
 font-size: 32px;
 color: white;
+
 }
 
 .headerStrig a {
@@ -183,6 +184,14 @@ max-width: 100vw;
 .phot{
     max-width:100%;
     height:auto;
+    filter: grayscale(70%); 
+
+}
+
+.phot:hover{
+    max-width:100%;
+    height:auto;
+    filter: grayscale(0%); 
 }
 .bigBlockTwoPhoto{
     height: auto;
