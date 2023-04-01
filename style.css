@@ -1,0 +1,492 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #141416;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: 500;
+    /* padding: 0 calc(50% - 600px); */
+    max-width: 100vw;
+}
+p, h1, h2, img {
+    margin: 0;
+    font-size: 1em;
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+}
+
+.headerStrig {
+    background-image: url("img/strig.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+font-size: 32px;
+color: white;
+}
+
+.headerStrig a {
+    color: white;
+}
+
+.headerTextBlockUp {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.headerTextBlockUpRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.barbershopTextH{
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+}
+#whatsapp {
+    font-size: 26px;
+    text-decoration: underline;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+
+.minotavrUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.logoMin {
+width: 23%;
+margin-bottom: 10px;
+}
+
+
+
+.underLogoMin {
+    margin-bottom: 70px;
+    font-size: 100%;
+}
+.onlineRegistrForm {
+    font-size: 32px;
+    background-color: #d99e64;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.onlineRegistrForm:hover {
+    background-color: #c98746;
+ 
+}
+.ornament {
+    width: 100%;
+
+}
+
+.about {
+    text-align: justify;
+    font-size: 26px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0;
+}
+/* .stat {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+   bottom: 0;
+    
+} */
+.bigBlockPrice {
+    background-image: url("img/kirpWithMin.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.price {
+    background-color: #d99e64;
+    width: 722px;
+    box-shadow: 0px 0px 20px black;
+    margin-bottom: 30px;
+   border: none;
+}
+.priceBlackStroke {
+    background-color: #141416;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 37px;
+}
+.priceText {
+    text-align: justify;
+    font-size: 28px;
+    line-height: 1.5;
+}
+#discountText {
+    font-size: 28px;
+    color: white;
+    
+}
+.priceBlock{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+#cent {
+    color: #141416;
+    font-weight: 600;
+}
+#registrShadowsAndColor{
+    box-shadow: 0px 0px 20px black;
+}
+.twoPhoto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigBlockFourPhoto{
+
+    height: auto;
+    display: grid;
+grid-template-columns: 709fr 482fr 709fr;
+max-width: 100vw;
+
+
+}
+.phot{
+    max-width:100%;
+    height:auto;
+}
+.bigBlockTwoPhoto{
+    height: auto;
+    display: grid;
+grid-template-columns: 709fr 709fr;
+max-width: 100vw;
+}
+a:hover {
+    color: #d99e64;
+}
+.textTime {
+    font-size: 40px;
+}
+footer {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLogoIconsNumber{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logoFooter{
+    width: 260px;
+}
+
+.icon{
+    height: 40px
+}
+.icon:hover{
+opacity: 0.85;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+
+.numberFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+.numberFooter a {
+    color: white;
+    font-size: 32px;
+}
+.numberFooter a:hover {
+    color: #d99e64;
+}
+
+.mapAdress {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.textTimeBottom {
+    font-size: 32px;
+}
+.adress {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+}
+.city{
+    font-size: 1.5em;
+}
+
+.map {
+    max-width: 100vw;
+}
+
+
+@media (min-width: 1200px) {
+
+
+    .about {
+
+        font-size: 26px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 20%;
+        padding-right: 20%;
+        margin: 0;
+    }
+
+footer {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.headerTextBlockUp {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.underLogoMin {
+    margin-bottom: 70px;
+    font-size: 125%;
+}
+}
+
+
+
+
+
+
+@media (max-width: 750px) {
+
+    footer {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .mapAdress {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .bigBlockPrice {
+        background-image: url("img/kirpWithMin.jpg");
+        background-position: center;
+        background-size: cover;
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* width: 100vw; */
+    
+    }
+    .price {
+        background-color: #d99e64;
+        width: 100%;
+        box-shadow: 0px 0px 20px black;
+        margin-bottom: 30px;
+       border: none;
+    }
+    .priceBlackStroke {
+        background-color: #141416;
+        padding: 15px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .priceText {
+        text-align: left;
+        font-size: 14px;
+        line-height: 1.75;
+    }
+    #discountText {
+        font-size: 18px;
+        color: white;
+        
+    }
+    .priceBlock{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #cent {
+        color: #141416;
+        font-weight: 700;
+        text-align: center;
+    }
+    .adress {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .headerStrig {
+        background-image: url("img/strig.jpg");
+        background-size: cover;
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    font-size: 12px;
+    color: white;
+    }
+
+    .barbershopTextH{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    #whatsapp {
+        font-size: 14px;
+        text-decoration: underline;
+        font-weight: 300;
+        opacity: 0.7;
+    }
+    .textTime {
+        font-size: 18px;
+    }
+    .onlineRegistrForm {
+        font-size: 20px;
+        background-color: #d99e64;
+        padding: 10px 20px;
+        border: 0;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    .logoMin {
+        width: 48%;
+        margin-bottom: 10px;
+        }
+        .underLogoMin {
+            margin-bottom: 50px;
+            font-size: 180%;
+        }
+        .about {
+            text-align: center;
+            font-size: 16px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 10%;
+            padding-right: 10%;
+            margin: 0;
+        }
+
+        .headerTextBlockUp {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            gap: 20px;
+        }
+        .headerTextBlockUpLeft {
+            text-align: center;
+        }
+
+        .headerTextBlockUpRight a {
+            font-size: 18px;
+        }
+
+        .numberFooter {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .numberFooter a {
+            color: white;
+            font-size: 20px;
+        }
+
+        .city{
+            font-size: 20px;
+        }
+        .textTimeBottom {
+            font-size: 20px;
+        }
+
+.street {
+    font-size: 16px;
+}
+
+.ornament {
+    
+        object-fit: cover;  
+        height: 20px;
+        width: 100vw;
+    
+}
+
+.bigBlockTwoPhoto{
+    height: auto;
+    display: grid;
+grid-template-columns: 709fr;
+max-width: 100vw;
+}
+
+
+.bigBlockFourPhoto{
+
+    height: auto;
+    display: grid;
+grid-template-columns: 709fr;
+max-width: 100vw;
+
+
+}
+
+}
