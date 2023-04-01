@@ -358,8 +358,8 @@ footer {
         display: flex;
         justify-content: center;
         gap: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     #cent {
         color: #141416;
@@ -489,4 +489,14 @@ max-width: 100vw;
 
 }
 
+}
+
+
+
+@media (max-width: 340px) {
+    .priceText {
+        text-align: left;
+        font-size: 12px;
+        line-height: 1.9;
+}
 }
