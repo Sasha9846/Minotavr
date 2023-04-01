@@ -95,7 +95,7 @@ margin-bottom: 10px;
 }
 .ornament {
     width: 100%;
-
+display: block;
 }
 
 .about {
